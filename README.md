@@ -21,12 +21,26 @@ Selamat datang di repositori jurnal harian saya. Di sini, saya mendokumentasikan
 | Hari | Materi / Aktivitas | Status | Dokumentasi |
 | :--- | :--- | :---: | :--- |
 | **001** | **Setup Environment & Git** | ✅ | Menyiapkan VS Code, Bun, Node.js, dan koneksi GitHub. |
-| **002** | HTML Semantic & SEO Dasar | ⏳ | *Upcoming* |
-| **003** | CSS Modern & Box Model | ⏳ | *Upcoming* |
-
+| **002** | **HTML Semantic & CSS Styling** | ✅ | Struktur bermakna, Responsive Design, dan UI Modern. |
+| **003** | CSS Layouting (Flexbox) | ⏳ | *Upcoming* |
 ---
 
 ## 📝 Catatan Harian Terbaru
+
+### **Hari 2: Semantic Structure & Modern Aesthetics**
+*February 12, 2026*
+
+**Today's Progress:**
+Fokus hari ini adalah beralih dari sekadar "membuat elemen" menjadi "membangun struktur". Saya merombak file `day2.html` menggunakan HTML Semantic dan memberikan sentuhan CSS agar web terlihat profesional.
+
+**Key Learnings:**
+- **Semantic HTML**: Implementasi `<header>`, `<nav>`, `<article>`, dan tag interaktif `<details>`.
+- **Modern CSS**: Belajar Gradient background, `box-shadow` untuk kedalaman, dan efek `hover`.
+- **Responsive Design**: Menggunakan `@media` queries agar web ramah layar smartphone.
+- **Troubleshooting**: Mengatasi error `#` pada navigasi dan melakukan `forced push` untuk sinkronisasi repository.
+
+**Personal Note:**
+*"Coding bukan hanya tentang instruksi ke mesin, tapi tentang memberikan makna pada setiap baris struktur."*
 
 ### **Hari 1: The Environment is Ready**
 *February 11, 2026*
@@ -45,9 +59,8 @@ Tujuan hari ini adalah standardisasi. Saya tidak memulai dengan kode yang rumit,
 ---
 
 ## 📈 Statistik Progres
-- **Total Hari:** 1 / 240
+- **Total Hari:** 2 / 240
 - **Fase Saat Ini:** Fase 1 (Dasar Frontend)
 - **Status:** On Track 🔥
-
 ---
 *Created with  by ran*
