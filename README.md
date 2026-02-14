@@ -22,7 +22,28 @@ Selamat datang di repositori jurnal harian saya. Di sini, saya mendokumentasikan
 | :--- | :--- | :---: | :--- |
 | **001** | **Setup Environment & Git** | ✅ | Menyiapkan VS Code, Bun, Node.js, dan koneksi GitHub. |
 | **002** | **HTML Semantic & CSS Styling** | ✅ | Struktur bermakna, Responsive Design, dan UI Modern. |
-| **003** | CSS Layouting (Flexbox) | ⏳ | *Upcoming* |
+| **003** | **CSS Layouting (Flexbox Mastery)** | ✅ | Membangun Hero Section, Flex-cards, dan Form responsif. |
+| **004** | JavaScript Fundamental I | ⏳ | *Upcoming* |
+
+---
+
+## 📝 Catatan Harian Terbaru
+
+### **Hari 3: Mastering Layouts with Flexbox**
+*February 14, 2026*
+
+**Today's Progress:**
+Fokus utama hari ini adalah mendalami sistem tata letak modern menggunakan **Flexbox**. Saya telah berhasil membangun struktur halaman yang lebih kompleks, profesional, dan responsif dari nol.
+
+**Key Learnings:**
+- **Flexbox Mastery**: Implementasi `justify-content`, `align-items`, dan `flex-direction` untuk kontrol posisi elemen yang presisi.
+- **Responsive Components**: Membangun *Hero Section* dengan gradasi modern dan *Feature Cards* yang otomatis menyesuaikan tata letak menggunakan `flex-wrap`.
+- **UI Aesthetics**: Mengintegrasikan Google Fonts (Poppins) dan memberikan efek transisi halus pada elemen interaktif.
+- **Professional Workflow**: Mempraktekkan penggunaan `flex: 1` pada input form untuk menciptakan tampilan UI yang seimbang.
+
+**Personal Note:**
+*"Layout adalah pondasi. Setelah menguasai Flexbox, membangun kerangka website apa pun terasa jauh lebih masuk akal dan efisien."*
+
 ---
 
 ## 📝 Catatan Harian Terbaru
