@@ -23,7 +23,27 @@ Selamat datang di repositori jurnal harian saya. Di sini, saya mendokumentasikan
 | **001** | **Setup Environment & Git** | ✅ | Menyiapkan VS Code, Bun, Node.js, dan koneksi GitHub. |
 | **002** | **HTML Semantic & CSS Styling** | ✅ | Struktur bermakna, Responsive Design, dan UI Modern. |
 | **003** | **CSS Layouting (Flexbox Mastery)** | ✅ | Membangun Hero Section, Flex-cards, dan Form responsif. |
-| **004** | JavaScript Fundamental I | ⏳ | *Upcoming* |
+| **004** | **CSS Basics: Selectors, Colors, Typography** | ✅ | Clone Desain Portofolio "Adam" (Glow & Glassmorphism). |
+| **005** | The Box Model (Padding, Margin, Border) | ⏳ | *Upcoming* |
+
+---
+
+## 📝 Catatan Harian Terbaru
+
+### **Hari 4: Deep Dive CSS & UI Cloning**
+*February 14, 2026*
+
+**Today's Progress:**
+Berhasil mereplikasi desain portofolio futuristik (Dark Mode) dengan fokus pada detail visual "Adam UI". Hari ini saya belajar bahwa desain yang *premium* sangat bergantung pada detail kecil di tipografi dan permainan cahaya.
+
+**Key Learnings:**
+- **Advanced Selectors**: Menggunakan kombinasi `.nav-item:hover:not(.active)` untuk logika interaksi menu yang cerdas.
+- **Glassmorphism**: Implementasi `backdrop-filter: blur()` dan `rgba` transparan untuk menciptakan efek kaca pada Sidebar.
+- **Neon & Glow Effects**: Eksperimen dengan `box-shadow` dan `radial-gradient` untuk memberikan dimensi pada foto profil dan teks aksen.
+- **Typography Hierarchy**: Mengatur `letter-spacing` dan `line-height` untuk menciptakan keterbacaan yang elegan pada layar gelap.
+
+**Personal Note:**
+*"Desain bukan cuma soal apa yang terlihat, tapi soal bagaimana kita mengarahkan mata user lewat cahaya dan tipografi."*
 
 ---
 

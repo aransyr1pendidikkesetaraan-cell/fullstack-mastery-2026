@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Box Model</title>
+    <style>
+        body{
+            background: #0f172a;
+            display:flex;
+            justify-content: center;
+            height:100vh;
+            align-items: center;
+        }
+        .card{
+            background: #1e293b;
+            padding:30px;
+            text-align: center;
+            border: 2px solid rgba(5, 24, 10, 0.56);
+            border-radius: 10px;
+            margin: 20px;
+            width: 250px;
+            color:white
+
+
+        }
+        .card h2{
+            margin-bottom: 10px;
+        }
+        .button{
+            background:#f472b6;
+            padding:10px 20px;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            margin-top:20px;
+            display: inline-block;
+            border-radius:10px;
+        }
+        .button:hover{
+            transition: 0.3 ease;
+            transform: translateY(10px)
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>The Box Model</h2>
+        <p>Belajar Mengatur jarak agar desain terlihat clean dan profesional</p>
+        <a href="#" class="button">PAHAM</a>
+    </div>
+    
+</body>
+</html>
