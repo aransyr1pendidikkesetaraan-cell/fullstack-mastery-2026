@@ -40,8 +40,8 @@
             display:flex;
             left:40px;
             top:50%;
-            flex-direction: column;
-            position: fixed;
+            flex-direction: column; /*agar nav turun*/
+            position: fixed; /*agar posisinya tidak berubah ketika di scroll*/
             gap:20px;
             padding: 30px 10px;
             transform: translateY(-50%);
@@ -97,6 +97,9 @@
             margin:0;
         }
         h1 span{
+            color:var(--accent-blue)
+        }
+        p span{
             color:var(--accent-blue)
         }
         .role{
@@ -163,7 +166,7 @@
         
         <img src="ran.png" class="profile-img">
         <h1>Hi I am <span>Bree</span></h1>
-        <p class="role">I'm Fullstack Engineer in-Training</p>
+        <p class="role">I'm Fullstack <span> Engineer in-Training</span></p>
         <p>I create beautiful, responsive web experiences using modern technologies.<br>
         Passionate about clean code and user-centered design</p>
     

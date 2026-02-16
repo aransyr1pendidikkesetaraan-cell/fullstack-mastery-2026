@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastering Position</title>
+    <style>
+        body{
+            background: #0f172a;
+            color:white;
+            display:flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+            text-align: center;
+        }
+        .card{
+            background: rgba(30, 41, 59, 0.7);
+            padding:30px;
+            border-radius: 30px;  
+            backdrop-filter: blur(10px);
+            border:1px solid rgba(225,225,225, 0.1);
+            width: 300px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+            position: relative;
+           
+            
+        }
+        .ex{
+             background: linear-gradient(45deg, #00dcff, #00a1ff);
+            padding:8px 15px;   
+            border-radius:50px;
+            bottom:-15px;
+            left: -15px;
+            position: absolute;
+            box-shadow:0 0 15px #00dcff; ;
+        }
+        .badge{
+            background: linear-gradient(45deg, #00dcff, #00a1ff);
+            padding:8px 15px;   
+            border-radius:50px;
+            top:2px;
+            right: -15px;
+            position:absolute;
+            box-shadow: 0 0 15px #00dcff;
+            font-weight: bold;
+            font-size: 12px;
+
+        }
+        
+        .img{
+            display: flex;
+            justify-content: center;
+            width:80px;
+            height:80px;
+            background: #38bdf8;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            box-shadow:0 0 15px #00dcff ;
+            
+        }
+        h2{
+            margin:10px 0 5px;
+            font-size: 22px;
+            
+        }
+        p{
+            color: #94a3b8;
+            font-size: 14px;
+        }
+        span{
+            color:#00dcff
+        }
+        .navbar ul{
+             /* atau class navbar lo */
+    position: fixed;/* Bikin dia keluar dari aliran flexbody*/
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%); /* Biar bener-bener di tengah atas */
+    display: flex; /* Biar list menu-nya ke samping, bukan ke bawah */
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    z-index: 1000; /* Biar selalu di atas card */
+    /* position: sticky; */
+    top:0;
+    background: rgba(0, 220, 255, 0.2); /*biar sesuai dengan tema glowsmorph*/
+    padding: 10px 30px;
+    backdrop-filter: blur (10px);
+    border-radius: 50px;
+    gap:30px;
+    display: flex;
+    font-weight: bold;
+    box-shadow: 0 0 15px #00dcff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+        
+
+
+
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <ul class="ul-navbar">
+            <li class="li-navbar">Home</li>
+            <li class="li-navbar">Berita</li>
+            <li class="li-navbar">karya</li>
+            <li class="li-navbar">about us</li>
+        </ul>
+    </nav>
+    
+    <div class="card">
+        <div class="badge">PRO</div>
+       
+        <div style="display:flex;justify-content: center;">
+        
+            <img src="ran.png" class="img"></div>
+        
+        <h2>I am <span>Bree</span></h2>
+        <p>Fullstack developer</p>
+        <p>Day-6 Mastering position</p>
+    </div>
+</body>
+</html>
