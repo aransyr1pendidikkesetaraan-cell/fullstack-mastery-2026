@@ -25,26 +25,40 @@ Selamat datang di repositori jurnal harian saya. Di sini, saya mendokumentasikan
 | **003** | **CSS Layouting (Flexbox Mastery)** | ✅ | Membangun struktur Hero Section & Feature Cards. |
 | **004** | **CSS Basics: Selectors & Glow Effect** | ✅ | Implementasi desain premium "Adam UI" & Glassmorphism. |
 | **005** | **The Box Model (Padding, Margin, Border)** | ✅ | Praktek mandiri presisi layout & Box-sizing. |
-| **006** | CSS Positioning (Relative, Absolute, Fixed) | ⏳ | *Upcoming* |
+| **006** | **CSS Positioning (Relative, Absolute, Fixed)** | ✅ | Implementasi Floating Badges & Glassmorphism Navbar. |
+| **007** | **Final Project: Professional Profile Card** | ⏳ | *Planning: Integrasi semua materi CSS untuk kartu profil pro.* |
 
 ---
 
 ## 📝 Catatan Harian Terbaru
 
+### **Hari 6: Mastering CSS Positioning & Layering**
+*February 16, 2026*
+
+**Today's Progress:**
+Berhasil keluar dari aliran dokumen normal (*normal flow*) untuk menciptakan layout yang lebih dinamis. Fokus hari ini adalah menempatkan elemen secara presisi menggunakan koordinat CSS dan efek visual modern.
+
+**Key Learnings:**
+- **Relative & Absolute**: Memahami hubungan "Parent-Child" di mana `position: relative` menjadi jangkar bagi elemen `absolute` (Implementasi pada Floating Badge).
+- **Fixed & Sticky Positioning**: Membangun Navbar transparan yang tetap berada di posisi atas saat di-scroll.
+- **Glassmorphism Detail**: Menggunakan `backdrop-filter: blur()` dikombinasikan dengan warna `rgba` transparan untuk efek premium.
+- **Z-Index Management**: Mengatur urutan tumpukan elemen agar navigasi tidak tertutup oleh konten lain.
+
+**Personal Note:**
+*"Positioning adalah kunci dari desain yang tidak kaku. Dengan kontrol penuh atas koordinat, saya tidak lagi dibatasi oleh urutan HTML standar. UI mulai terlihat sangat mahal!"*
+
+---
+
 ### **Hari 5: The Box Model Mastery**
 *February 15, 2026*
 
 **Today's Progress:**
-Berhasil menaklukkan konsep **The Box Model** melalui praktek mandiri tanpa melihat referensi. Fokus hari ini adalah memahami bagaimana setiap elemen diatur ruangnya agar layout tetap presisi dan tidak "pecah".
+Berhasil menaklukkan konsep **The Box Model** melalui praktek mandiri tanpa melihat referensi. Fokus hari ini adalah memahami bagaimana setiap elemen diatur ruangnya agar layout tetap presisi.
 
 **Key Learnings:**
 - **Independent Practice**: Berhasil membangun komponen "Feature Card" dari nol dengan logika sendiri.
-- **Box Sizing**: Implementasi `box-sizing: border-box` sebagai standar wajib agar kalkulasi lebar elemen tetap akurat meskipun ditambah padding/border.
-- **Space Management**: Memahami perbedaan krusial antara **Padding** (ruang dalam/napas elemen) dan **Margin** (jarak antar elemen).
-- **Shorthand CSS**: Menggunakan teknik penulisan efisien untuk pengaturan jarak (top, right, bottom, left).
-
-**Personal Note:**
-*"Berhasil lepas dari panduan (roda bantu) adalah bukti kalau logika layouting sudah mulai terbentuk. Presisi adalah kunci UI yang profesional."*
+- **Box Sizing**: Implementasi `box-sizing: border-box` sebagai standar wajib.
+- **Space Management**: Memahami perbedaan krusial antara Padding dan Margin.
 
 ---
 
@@ -54,22 +68,13 @@ Berhasil menaklukkan konsep **The Box Model** melalui praktek mandiri tanpa meli
 **Today's Progress:**
 Berhasil mengimplementasikan desain portofolio futuristik (Dark Mode) dengan fokus pada detail visual. Belajar bahwa desain yang premium sangat bergantung pada detail kecil di tipografi dan permainan cahaya.
 
-**Key Learnings:**
-- **Advanced Selectors**: Penggunaan kombinasi selektor kompleks untuk logika interaksi menu.
-- **Glassmorphism & Glow**: Eksperimen dengan `backdrop-filter` dan `box-shadow` untuk dimensi visual.
-- **Visual Hierarchy**: Mengatur `letter-spacing` dan `line-height` untuk estetika teks modern.
-
 ---
 
 ### **Hari 3: Mastering Layouts with Flexbox**
 *February 13, 2026*
 
 **Today's Progress:**
-Mendalami sistem tata letak modern menggunakan **Flexbox**. Membangun struktur halaman yang lebih kompleks dan responsif dari nol.
-
-**Key Learnings:**
-- **Flexbox Control**: Penggunaan `justify-content` dan `align-items` untuk posisi presisi.
-- **Responsive Components**: Membuat grid sistem sederhana yang otomatis menyesuaikan layar menggunakan `flex-wrap`.
+Mendalami sistem tata letak modern menggunakan Flexbox. Membangun struktur halaman yang lebih kompleks dan responsif dari nol.
 
 ---
 
@@ -78,10 +83,6 @@ Mendalami sistem tata letak modern menggunakan **Flexbox**. Membangun struktur h
 
 **Today's Progress:**
 Beralih dari sekadar "membuat elemen" menjadi "membangun struktur" dengan HTML Semantic.
-
-**Key Learnings:**
-- **Semantic HTML**: Implementasi `<header>`, `<nav>`, dan `<article>`.
-- **Modern CSS**: Dasar gradient background dan efek `hover`.
 
 ---
 
@@ -94,7 +95,7 @@ Standardisasi alur kerja. Menyiapkan fondasi yang kokoh agar pengembangan ke dep
 ---
 
 ## 📈 Statistik Progres
-- **Total Hari:** 5 / 240
+- **Total Hari:** 6 / 240
 - **Fase Saat Ini:** Fase 1 (Dasar Frontend)
 - **Status:** On Track 🔥
 
