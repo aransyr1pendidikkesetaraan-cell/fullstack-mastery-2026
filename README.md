@@ -26,11 +26,28 @@ Selamat datang di repositori jurnal harian saya. Di sini, saya mendokumentasikan
 | **004** | **CSS Basics: Selectors & Glow Effect** | ✅ | Implementasi desain premium "Adam UI" & Glassmorphism. |
 | **005** | **The Box Model (Padding, Margin, Border)** | ✅ | Praktek mandiri presisi layout & Box-sizing. |
 | **006** | **CSS Positioning (Relative, Absolute, Fixed)** | ✅ | Implementasi Floating Badges & Glassmorphism Navbar. |
-| **007** | **Final Project: Professional Profile Card** | ⏳ | *Planning: Integrasi semua materi CSS untuk kartu profil pro.* |
+| **007** | **Final Project: Professional Profile Card** | ✅ | Integrasi CSS Modern & Interaksi Dasar JavaScript. |
+| **008** | **CSS Variables & Advanced UI** | ⏳ | *Upcoming: Optimalisasi kode dengan variabel & micro-animations.* |
 
 ---
 
 ## 📝 Catatan Harian Terbaru
+
+### **Hari 7: Final Project - Professional Profile Card & JS Intro**
+*February 17, 2026*
+
+**Today's Progress:**
+Berhasil menyatukan seluruh materi dari hari ke-1 hingga ke-6 menjadi sebuah komponen kartu profil profesional. Fokus hari ini adalah presisi visual dan menambahkan interaksi dasar menggunakan JavaScript.
+
+**Key Learnings:**
+- **Compound Positioning**: Menempatkan foto profil di antara dua section menggunakan `position: absolute` dan `transform: translateX(-50%)` untuk center yang presisi.
+- **Visual Polish**: Mengimplementasikan `overflow: hidden` pada container untuk memastikan elemen *child* (seperti cover) tidak merusak *border-radius*.
+- **DOM Interaction**: Implementasi `addEventListener` pertama kali untuk mengubah status tombol Follow dan Message secara dinamis.
+
+**Personal Note:**
+*"Web yang bagus bukan cuma tentang visual, tapi tentang bagaimana user merasa dilibatkan melalui interaksi sederhana."*
+
+---
 
 ### **Hari 6: Mastering CSS Positioning & Layering**
 *February 16, 2026*
